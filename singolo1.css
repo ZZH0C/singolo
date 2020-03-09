@@ -18,15 +18,16 @@ header {
 }
 
 p {
-    margin: 0
+    margin: 0;
+    word-wrap: break-word;
 }
 
-a {
+#Header_text a {
     text-decoration-line: none;
     color: white;
 }
 
-a:hover {
+#Header_text a:hover {
     color: #f06c64;
 }
 
@@ -153,9 +154,6 @@ h2 {
     margin: 0;
 }
 
-p {
-    word-wrap: break-word
-}
 
 .PBig {
     font-size: 18.5px;
