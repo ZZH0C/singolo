@@ -1,3 +1,6 @@
+* {
+    font-family: "Lato", sans-serif;
+}
 
 body {
     width: 1020px;
@@ -17,10 +20,6 @@ header {
 p {
     margin: 0;
     word-wrap: break-word;
-}
-
-* {
-    font-family: "Lato", sans-serif;
 }
 
 #Header_text a {
@@ -206,13 +205,11 @@ h2 {
     padding-top: 60px;
     font-size: 30px;
     font-weight: bold;
-    font-family: "Lato", sans-serif;
 }
 
 #PortfolioText {
     padding-left: 40px;
     color: #666d89;
-    font-family: "Lato", sans-serif;
     font-size: 18px;
     padding-top: 22px;
     letter-spacing: -0.22px;
@@ -235,7 +232,6 @@ h2 {
     background-color: #2d303a;
     margin-right: 10px;
     line-height: 8px;
-    font-family: "Lato", sans-serif;
 }
 
 #PortfolioButtons button:hover {
@@ -265,7 +261,6 @@ h2 {
 
 #AboutUsHeader {
     padding-top: 59px;
-    font-family: "Lato", sans-serif;
     font-size: 30px;
     color: #666d89;
     font-weight: 900;
@@ -273,7 +268,6 @@ h2 {
 
 #AboutUsText {
     padding-top: 18px;
-    font-family: "Lato", sans-serif;
     color: #666d89;
     line-height: 30px;
     font-size: 18px;
@@ -304,7 +298,6 @@ h2 {
 
 .AboutUsPicsBlockName {
     font-size: 18px;
-    font-family: "Lato", sans-serif;
     font-weight: bold;
     padding-top: 12px;
     white-space: nowrap;
@@ -314,7 +307,6 @@ h2 {
 
 .AboutUsPicsBlockText {
     font-size: 12px;
-    font-family: "Lato", sans-serif;
     padding-top: 8px;
     line-height: 21px;
     text-align: justify;
