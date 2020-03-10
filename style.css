@@ -104,10 +104,18 @@ h1 {
     left: 42px;
 }
 
+#ArrowL:hover {
+    opacity: 0.5;
+}
+
 #ArrowR {
     float: right;
     position: relative;
     right: 40px;
+}
+
+#ArrowR:hover {
+    opacity: 0.5;
 }
 
 #Services {
@@ -292,7 +300,7 @@ h2 {
     width: 300px;
 }
 
-.AboutUsPicsBlock-PaddingFix{
+.AboutUsPicsBlock-PaddingFix {
     padding-right: 1px;
 }
 
@@ -308,7 +316,7 @@ h2 {
     white-space: nowrap;
 }
 
-.AboutUsPicsBlockName p{
+.AboutUsPicsBlockName p {
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -331,23 +339,25 @@ h2 {
     opacity: 50%;
 }
 
-#GetAQuote{
+#GetAQuote {
     height: 648px;
     background-color: #f06c64;
     border-bottom: 6px solid #ea676b;
     padding: 0 40px;
 }
 
-#GetAQuoteText{
+#GetAQuoteText {
     padding-top: 67px;
     color: #f0d8d9;
 }
-#GetAQuoteTextBig{
+
+#GetAQuoteTextBig {
     font-weight: bold;
     font-size: 30px;
     line-height: 18px;
 }
-#GetAQuoteTextSmall{
+
+#GetAQuoteTextSmall {
     font-weight: lighter;
     padding-top: 28px;
     font-size: 18px;
@@ -356,20 +366,21 @@ h2 {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 /* form-background color= #d6564f  */
 
-#GetAQuoteFlex{
+#GetAQuoteFlex {
     padding-top: 44px;
     display: flex;
     flex-flow: row;
 }
 
-#GAQForm{
+#GAQForm {
     height: 364px;
     width: 619px;
 }
 
-.InputName{
+.InputName {
     width: 589px;
     height: 15px;
     background-color: #d6564f;
@@ -380,7 +391,7 @@ h2 {
     outline: none;
 }
 
-#InputDescription{
+#InputDescription {
     width: 589px;
     height: 179px;
     background-color: #d6564f;
@@ -390,17 +401,19 @@ h2 {
 
 }
 
-#GAQText{
+#GAQText {
     padding-left: 21px;
     height: 364px;
 }
-#GAQTextBig{
+
+#GAQTextBig {
     font-size: 18px;
     line-height: 18px;
     color: #f0d8d9;
     font-weight: bold;
 }
-#GAQTextSmall{
+
+#GAQTextSmall {
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
@@ -408,27 +421,31 @@ h2 {
     word-wrap: break-word;
     margin-bottom: 18px;
 }
-#GAQTextUrl{
+
+#GAQTextUrl {
 
 }
-#GAQTextUrlLoc{
+
+#GAQTextUrlLoc {
     color: #f0d8d9;
     display: block;
     text-decoration-line: none;
 
 }
-#GAQTextUrlTel{
-    color: #f0d8d9;
-    display: block;
-    text-decoration-line: none;
-}
-#GAQTextUrlEmail{
+
+#GAQTextUrlTel {
     color: #f0d8d9;
     display: block;
     text-decoration-line: none;
 }
 
-.LinkText{
+#GAQTextUrlEmail {
+    color: #f0d8d9;
+    display: block;
+    text-decoration-line: none;
+}
+
+.LinkText {
     color: #f0d8d9;
     display: inline;
     font-size: 12px;
@@ -436,50 +453,67 @@ h2 {
     padding-left: 10px;
 }
 
-.InputName::placeholder{
-    color: #f48c8f;
-    font-size: 12px;
-}
-#InputDescription::placeholder{
+.InputName::placeholder {
     color: #f48c8f;
     font-size: 12px;
 }
 
-
-#GAQTextUrlLoc p:hover{
-    color: greenyellow;
-}
-#GAQTextUrlTel p:hover{
-    color: greenyellow;
-}
-#GAQTextUrlEmail p:hover{
-    color: greenyellow;
+#InputDescription::placeholder {
+    color: #f48c8f;
+    font-size: 12px;
 }
 
-.linkimg{padding: 0 3px}
 
-#footerCopyright{
+#GAQTextUrlLoc p:hover {
+    color: greenyellow;
+}
+
+#GAQTextUrlTel p:hover {
+    color: greenyellow;
+}
+
+#GAQTextUrlEmail p:hover {
+    color: greenyellow;
+}
+
+.linkimg {
+    padding: 0 3px
+}
+
+#footerCopyright {
     font-size: 12px;
     color: #666d89;
     padding-top: 30px;
     padding-left: 2px;
 }
 
-#footerLink{
+#footerLink {
     padding-top: 22px;
     display: flex;
     justify-content: space-between;
     width: 152px;
 }
-.MediaImg:hover{
+
+.MediaImg:hover {
     opacity: 0.5;
 }
 
-footer
-{
+footer {
     background-color: #2d303a;
     height: 76px;
     padding: 0 40px;
     display: flex;
     justify-content: space-between;
+}
+
+.mediaLink{
+    margin-top: 23px;
+    margin-left: 1px;
+    width: 152px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MediaImg:hover{
+    opacity: 0.5;
 }
