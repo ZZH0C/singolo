@@ -192,11 +192,12 @@ h2 {
     text-align: justify;
     height: 60px;
     overflow: hidden;
+    padding-right: 20px;
 }
 
 
 #Portfolio {
-    height: 864px;
+    height: 863px;
     border-bottom: 6px solid #323746;
     background-color: #2d303a;
     padding-right: 40px;
@@ -213,7 +214,7 @@ h2 {
 #PortfolioHeader {
     padding-left: 40px;
     color: #666d89;
-    padding-top: 60px;
+    padding-top: 59px;
     font-size: 30px;
     font-weight: bold;
 }
@@ -311,7 +312,7 @@ h2 {
 
 .AboutUsPicsBlockName {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 900;
     padding-top: 12px;
     white-space: nowrap;
 }
@@ -507,12 +508,14 @@ footer {
 }
 
 .mediaLink{
-    margin-top: 23px;
+    margin-top: 24px;
     margin-left: 1px;
     width: 152px;
     display: flex;
     justify-content: space-between;
 }
+
+#mediaLinkFix{margin-left: 0;}
 
 .MediaImg:hover{
     opacity: 0.5;
