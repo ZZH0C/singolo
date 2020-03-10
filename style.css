@@ -4,7 +4,7 @@
 
 body {
     width: 1020px;
-    height: 2799px;
+    height: 3529px;
     margin: 0 auto;
 }
 
@@ -329,4 +329,157 @@ h2 {
 
 .AboutUsPicsBlockSocialPic:hover {
     opacity: 50%;
+}
+
+#GetAQuote{
+    height: 648px;
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+    padding: 0 40px;
+}
+
+#GetAQuoteText{
+    padding-top: 67px;
+    color: #f0d8d9;
+}
+#GetAQuoteTextBig{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 18px;
+}
+#GetAQuoteTextSmall{
+    font-weight: lighter;
+    padding-top: 28px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* form-background color= #d6564f  */
+
+#GetAQuoteFlex{
+    padding-top: 44px;
+    display: flex;
+    flex-flow: row;
+}
+
+#GAQForm{
+    height: 364px;
+    width: 619px;
+}
+
+.InputName{
+    width: 589px;
+    height: 15px;
+    background-color: #d6564f;
+    border: 0;
+    border-radius: 5px;
+    padding: 11.5px 15px;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+#InputDescription{
+    width: 589px;
+    height: 179px;
+    background-color: #d6564f;
+    border: 0;
+    border-radius: 5px;
+    padding: 11.5px 15px;
+
+}
+
+#GAQText{
+    padding-left: 21px;
+    height: 364px;
+}
+#GAQTextBig{
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-weight: bold;
+}
+#GAQTextSmall{
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    padding-top: 10px;
+    word-wrap: break-word;
+    margin-bottom: 18px;
+}
+#GAQTextUrl{
+
+}
+#GAQTextUrlLoc{
+    color: #f0d8d9;
+    display: block;
+    text-decoration-line: none;
+
+}
+#GAQTextUrlTel{
+    color: #f0d8d9;
+    display: block;
+    text-decoration-line: none;
+}
+#GAQTextUrlEmail{
+    color: #f0d8d9;
+    display: block;
+    text-decoration-line: none;
+}
+
+.LinkText{
+    color: #f0d8d9;
+    display: inline;
+    font-size: 12px;
+    line-height: 22px;
+    padding-left: 10px;
+}
+
+.InputName::placeholder{
+    color: #f48c8f;
+    font-size: 12px;
+}
+#InputDescription::placeholder{
+    color: #f48c8f;
+    font-size: 12px;
+}
+
+
+#GAQTextUrlLoc p:hover{
+    color: greenyellow;
+}
+#GAQTextUrlTel p:hover{
+    color: greenyellow;
+}
+#GAQTextUrlEmail p:hover{
+    color: greenyellow;
+}
+
+.linkimg{padding: 0 3px}
+
+#footerCopyright{
+    font-size: 12px;
+    color: #666d89;
+    padding-top: 30px;
+    padding-left: 2px;
+}
+
+#footerLink{
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    width: 152px;
+}
+.MediaImg:hover{
+    opacity: 0.5;
+}
+
+footer
+{
+    background-color: #2d303a;
+    height: 76px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
 }
