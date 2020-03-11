@@ -155,6 +155,8 @@ h1 {
     width: 220px;
     padding-left: 20px;
     padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 h2 {
