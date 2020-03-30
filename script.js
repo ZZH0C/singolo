@@ -44,3 +44,16 @@ Arrow_Left.addEventListener("click", function () {
         ToLeft(Slide1, Slide0);
     }
 });
+
+
+let images=document.querySelectorAll(".portfolio_img");
+
+for(let i=0;i<images.length;i++){
+ images[i].addEventListener("click",function () {
+     for (let j=0;j<images.length;j++){
+         images[j].classList.remove("active_img");
+     }
+     images[i].classList.toggle("active_img");
+ });
+}
+

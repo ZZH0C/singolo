@@ -288,7 +288,7 @@ h2 {
     border-color: #c5c5c5;
 }
 
-#PortfolioImg {
+.PortfolioImg {
     padding-left: 30px;
     width: 960px;
     height: 601px;
@@ -299,9 +299,7 @@ h2 {
     justify-content: center;
 }
 
-#PortfolioImg img {
-    padding: 10px
-}
+
 
 #PortfolioImg img:nth-child(n+13) {
     visibility: hidden
@@ -561,4 +559,14 @@ footer {
 
 .hidden {
     display: none;
+}
+
+.portfolio_img{
+    padding: 10px
+}
+
+.active_img{
+    padding: 0;
+    border: #5cb1ea solid 5px;
+    margin: 5px;
 }
