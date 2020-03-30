@@ -271,19 +271,6 @@ h2 {
     flex-flow: row wrap;
 }
 
-#PortfolioButtons button {
-    text-decoration-line: none;
-    font-size: 12px;
-    border: 1px solid #666d89;
-    border-radius: 5px;
-    padding: 6px 6px;
-    color: #666d89;
-    background-color: #2d303a;
-    margin-right: 10px;
-    line-height: 8px;
-}
-
-
 
 .PortfolioImg {
     padding-left: 30px;
@@ -295,7 +282,6 @@ h2 {
     align-items: center;
     justify-content: center;
 }
-
 
 
 #PortfolioImg img:nth-child(n+13) {
@@ -558,22 +544,33 @@ footer {
     display: none;
 }
 
-.portfolio_img{
+.portfolio_img {
     padding: 10px
 }
 
-.active_img{
+.active_img {
     padding: 0;
     border: #5cb1ea solid 5px;
     margin: 5px;
 }
 
-.button_for_shuffle{}
-
-
-.button_for_shuffle_active{
-    transform: translate(0,-5px);
+.button_for_shuffle.button_for_shuffle_active {
+    color: #c5c5c5;
+    border-color: #c5c5c5;
 }
+
+.button_for_shuffle {
+    text-decoration-line: none;
+    font-size: 12px;
+    border: 1px solid #666d89;
+    border-radius: 5px;
+    padding: 6px 6px;
+    color: #666d89;
+    background-color: #2d303a;
+    margin-right: 10px;
+    line-height: 8px;
+}
+
 
 #PortfolioButtons button:hover {
     color: #c5c5c5;

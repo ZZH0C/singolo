@@ -46,27 +46,27 @@ Arrow_Left.addEventListener("click", function () {
 });
 
 
-let images=document.querySelectorAll(".portfolio_img");
+let images = document.querySelectorAll(".portfolio_img");
 
-for(let i=0;i<images.length;i++){
- images[i].addEventListener("click",function () {
-     for (let j=0;j<images.length;j++){
-         images[j].classList.remove("active_img");
-     }
-     images[i].classList.toggle("active_img");
- });
+for (let i = 0; i < images.length; i++) {
+    images[i].addEventListener("click", function () {
+        for (let j = 0; j < images.length; j++) {
+            images[j].classList.remove("active_img");
+        }
+        images[i].classList.toggle("active_img");
+    });
 }
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
 
-let suffle_buttons=document.querySelectorAll(".button_for_shuffle");
-let imgchild=document.querySelector(".PortfolioImg");
+let shuffle_buttons = document.querySelectorAll(".button_for_shuffle");
+let imgchild = document.querySelector(".PortfolioImg");
 
-for(let i=0;i<suffle_buttons.length;i++){
-    suffle_buttons[i].addEventListener("click",function () {
-        if (suffle_buttons[i].classList.contains("button_for_shuffle_active")===false) {
+for (let i = 0; i < shuffle_buttons.length; i++) {
+    shuffle_buttons[i].addEventListener("click", function () {
+        if (shuffle_buttons[i].classList.contains("button_for_shuffle_active") === false) {
             let b;
             for (let j = 0; j < 60; j++) {
                 let rand = getRandomInt(12);
@@ -74,10 +74,10 @@ for(let i=0;i<suffle_buttons.length;i++){
                 imgchild.replaceChild(images[0], images[rand]);
                 imgchild.prepend(b);
             }
-            for (let j = 0; j < suffle_buttons.length; j++) {
-                suffle_buttons[j].classList.remove("button_for_shuffle_active");
+            for (let j = 0; j < shuffle_buttons.length; j++) {
+                shuffle_buttons[j].classList.remove("button_for_shuffle_active");
             }
-            suffle_buttons[i].classList.add("button_for_shuffle_active");
+            shuffle_buttons[i].classList.add("button_for_shuffle_active");
         }
     });
 }
