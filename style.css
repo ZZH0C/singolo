@@ -283,10 +283,7 @@ h2 {
     line-height: 8px;
 }
 
-#PortfolioButtons button:hover {
-    color: #c5c5c5;
-    border-color: #c5c5c5;
-}
+
 
 .PortfolioImg {
     padding-left: 30px;
@@ -572,3 +569,13 @@ footer {
 }
 
 .button_for_shuffle{}
+
+
+.button_for_shuffle_active{
+    transform: translate(0,-5px);
+}
+
+#PortfolioButtons button:hover {
+    color: #c5c5c5;
+    border-color: #c5c5c5;
+}

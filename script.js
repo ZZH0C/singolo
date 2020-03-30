@@ -66,12 +66,18 @@ let imgchild=document.querySelector(".PortfolioImg");
 
 for(let i=0;i<suffle_buttons.length;i++){
     suffle_buttons[i].addEventListener("click",function () {
-        let b;
-        for (let i=0; i<60;i++) {
-            let rand=getRandomInt(12);
-            b = images[rand];
-            imgchild.replaceChild(images[0], images[rand]);
-            imgchild.prepend(b);
+        if (suffle_buttons[i].classList.contains("button_for_shuffle_active")===false) {
+            let b;
+            for (let j = 0; j < 60; j++) {
+                let rand = getRandomInt(12);
+                b = images[rand];
+                imgchild.replaceChild(images[0], images[rand]);
+                imgchild.prepend(b);
+            }
+            for (let j = 0; j < suffle_buttons.length; j++) {
+                suffle_buttons[j].classList.remove("button_for_shuffle_active");
+            }
+            suffle_buttons[i].classList.add("button_for_shuffle_active");
         }
     });
 }
