@@ -57,3 +57,21 @@ for(let i=0;i<images.length;i++){
  });
 }
 
+function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+}
+
+let suffle_buttons=document.querySelectorAll(".button_for_shuffle");
+let imgchild=document.querySelector(".PortfolioImg");
+
+for(let i=0;i<suffle_buttons.length;i++){
+    suffle_buttons[i].addEventListener("click",function () {
+        let b;
+        for (let i=0; i<60;i++) {
+            let rand=getRandomInt(12);
+            b = images[rand];
+            imgchild.replaceChild(images[0], images[rand]);
+            imgchild.prepend(b);
+        }
+    });
+}
